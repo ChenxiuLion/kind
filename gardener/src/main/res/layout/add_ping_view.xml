@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/container_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/addping_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:hint="说点什么吧"
+            android:lines="2"
+            android:background="@drawable/shape_ping"
+            android:padding="5dp"
+            android:textColor="#424242"
+            android:textColorHint="#BABABA"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tijiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:text="发送"
+            android:textColor="#424242"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_ping"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>

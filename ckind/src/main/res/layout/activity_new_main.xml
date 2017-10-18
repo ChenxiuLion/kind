@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="110px"
+         />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="172px"
+        android:background="@drawable/icon_menu_bg"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/main_btn_item_1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:onClick="onClick"
+            android:paddingTop="71px">
+
+            <ImageView
+                android:id="@+id/main_btm_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="43px"
+                android:src="@drawable/icon_menu_home_sel"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:id="@+id/main_btm_intro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:onClick="onClick"
+                android:text="幼儿园"
+                android:textColor="@color/main_green_bg"
+                android:textSize="28px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/main_btn_item_3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:onClick="onClick"
+            android:layout_marginTop="71px">
+
+            <ImageView
+                android:id="@+id/main_btm_atv"
+                android:layout_width="wrap_content"
+                android:layout_height="43px"
+                android:src="@drawable/main_tab_grow_selector"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:id="@+id/main_btm_intro3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:text="成长动态"
+                android:textColor="#757575"
+                android:textSize="28px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_btm_see"
+                android:layout_width="107px"
+                android:layout_height="107px"
+                android:layout_marginTop="10px"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:src="@drawable/main_see_selector" />
+
+            <TextView
+                android:id="@+id/main_btm_intro4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:text="看宝宝"
+                android:textColor="#757575"
+                android:textSize="28px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/main_btn_item_2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:onClick="onClick"
+            android:layout_marginTop="71px">
+
+            <ImageView
+                android:id="@+id/main_btm_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="43px"
+                android:src="@drawable/main_tab_msg_selector"
+                android:clickable="true"
+                android:onClick="onClick" />
+
+            <TextView
+                android:id="@+id/main_btm_intro2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:text="消息"
+                android:textColor="#757575"
+                android:textSize="28px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/main_btn_item_4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:onClick="onClick"
+            android:paddingTop="71px">
+
+            <ImageView
+                android:id="@+id/main_btm_my"
+                android:layout_width="wrap_content"
+                android:layout_height="43px"
+                android:background="@drawable/main_tab_my_selector"
+                android:clickable="true"
+                android:onClick="onClick"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:text="我的"
+                android:textColor="#757575"
+                android:textSize="28px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

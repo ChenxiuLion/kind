@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white3">
+
+    <include layout="@layout/page_title" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:focusable="true"
+        android:hint="这是标题"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/new_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:minLines="5"
+        android:focusable="true"
+        android:hint="这是内容"
+        />
+
+    <View android:layout_width="match_parent" android:layout_height="1px" android:background="#cdcdcd" />
+    <GridView
+        android:padding="5dip"
+        android:id="@+id/noScrollgridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="4"
+        android:columnWidth="90dip"
+        android:scrollbars="none"
+        android:listSelector="#00000000"
+        android:cacheColorHint="@android:color/transparent"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

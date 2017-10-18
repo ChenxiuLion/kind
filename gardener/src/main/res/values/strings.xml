@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">家园宝宝园丁端</string>
+    <string name="version_symbol">an</string>
+    <string name="dialog_update_title">更新提示</string>
+    <string name="dialog_message">当前已是最新版本</string>
+    <string name="dialog_update_msg">最新版本:</string>
+    <string name="dialog_update_msg2">，是否立即更新</string>
+    <string name="dialog_update_btnupdate">更新</string>
+    <string name="dialog_update_btnnext">下次再说</string>
+    <string name="dialog_update_exit">退出系统</string>
+    <string name="dialog_downloading_msg">下载资源文件</string>
+    <string name="dialog_alert_title">警告</string>
+    <string name="dialog_downfailed_btndown">重新下载</string>
+    <string name="dialog_downfailed_btnnext">以后再说</string>
+    <string name="dialog_server_error">升级服务器连接失败，请稍后再试</string>
+    <string name="dialog_error_title">错误提示</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_downfailed_msg">下载更新失败，是否重试？</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="net_error_tip">当前网络不可用，请检查你的网络设置</string>
+    <string name="server_error_tip">连接服务器失败，正在努力重新连接中！</string>
+    <string name="server_error_net_tip">连接服务器失败，正在努力重新连接中！</string>
+    <string name="no_chat">暂时没有新消息</string>
+    <string name="first_start_tips">不能为空哦</string>
+    <string name="chat_check_history">点击加载更多</string>
+    <string name="is_all">已经全部加载完毕</string>
+    <string name="left_title_name">联系人列表</string>
+    <string name="center_title_name">最近会话</string>
+    <string name="right_title_name">设置</string>
+    <string name="exit_confirm_toast">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;确定退出吗？退出后不会删除任何历史数据，只是你将接收不到消息，下次需要重新登录</string>
+    <string name="sound_and_vibrate">声音</string>
+    <string name="setting_display">界面</string>
+    <string name="logout_account">注销登录</string>
+    <string name="security_and_privacy">安全和隐私</string>
+    <string name="logout_exit_account">退出当前帐号</string>
+    <string name="pref_assistant">辅助功能</string>
+    <string name="delete_friend_confirm">确定删除%1$s吗？</string>
+    <string name="menu_about">关于</string>
+    <string name="set_message_notify">通知栏挂机图标</string>
+    <string name="set_pullrefresh_sound">刷新提示音</string>
+    <string name="set_encrypt_message">发送加密消息</string>
+    <string name="set_message_sound">新消息声音提醒</string>
+    <string name="set_show_head">聊天显示自己头像</string>
+    <string name="set_message_flag">发送密文消息</string>
+    <string name="set_acount_info">个人资料</string>
+    <string name="set_face_jazz">表情滑动效果</string>
+    <string name="press_again_backrun">再按一次后台运行</string>
+    <string name="press_again_exit">再按一次退出应用</string>
+    <string name="app_is_run_background">应用正在后台运行</string>
+    <string name="set_edit_pass">修改密码</string>
+    <string name="system_setter">系统设置</string>
+    <string name="open">打开</string>
+    <string name="delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="face_jazz_effects">表情翻页效果</string>
+    <string name="info_info">个人资料</string>
+    <string name="info_test">测试</string>
+    <string name="info_edit">编辑</string>
+    <string name="info_save">保存</string>
+    <string name="register_tip">提示 :以上均为必选项!</string>
+    <string name="my_blog_url">http://www.koal.com</string>
+    <string name="suuper_email">support@koal.com</string>
+    <string name="app_information">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本应用是格尔软件开发的一款安全即时通工具，使用PKI技术保障无线即时通讯的数据传输安全和存储安全。公司主页：%1$s，感谢你的使用，有任何问题请和我们联系！</string>
+    <string name="all_rights_reserved">版权所有&#169; 1998&#8211;2015</string>
+    <string name="company_rights">上海格尔软件股份有限公司</string>
+    <string name="pull_to_refresh_pull_label">加载数据…</string>
+    <string name="pull_to_refresh_release_label">放开以加载…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_refreshing_sub_title">加载时间:</string>
+    <string name="no_parse_encrypt_content">加密内容，无法解析</string>
+    <string name="login_nomal">账户登录</string>
+    <string name="login_cert">安全登录</string>
+    <string name="login_loading">正在登录......</string>
+    <string name="gorup_tip">组织结构</string>
+    <string name="roster_tip">联系人列表</string>
+    <string name="feed_loading">反馈信息中</string>
+    <string name="line_not_send_pic_song">对方离线状态下，不能发送图片和语音</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="buffering">buffering</string>
+    <string name="sort">Sort</string>
+    <string name="vitamio_init_decoders">Initializing decoders…</string>
+    <string name="vitamio_videoview_error_title">Cannot play video</string>
+    <string name="vitamio_videoview_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+		this device.</string>
+    <string name="vitamio_videoview_error_text_unknown">Sorry, this video cannot be played.</string>
+    <string name="vitamio_videoview_error_button">OK</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+
+    <!-- 上拉下拉 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">释放立即刷新</string>
+    <string name="xlistview_header_hint_loading">正在刷新&#8230;&#8230;&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- 通知提示Title -->
+    <string name="notice_image">接收到一张图片</string>
+    <string name="notice_sound">接收到一段语音</string>
+    <string name="notice_message">接收到一条新消息</string>
+    <string name="send_chat_message">发送会话信息</string>
+    <string name="system_message">系统消息</string>
+    <string name="image_des">图片信息</string>
+    <string name="cehck_certs">验证证书</string>
+
+    <!-- 缺省服务器配置信息 -->
+    <integer name="xmpp_port">9000</integer>
+
+    <string name="xmpp_host">101.231.201.62</string>
+
+    <integer name="xmpp_update_port">8080</integer>
+
+    <string name="xmpp_update_host">101.231.201.62</string>
+    <string name="xmpp_service_admin">admin</string>
+    <string name="xmpp_service_name">koal.zz</string>
+
+    <string name="xmpp_resource_name">KSIMANDROID</string>
+
+    <bool name="is_remember">true</bool>
+    <bool name="is_autologin">false</bool>
+    <bool name="is_novisible">false</bool>
+
+    <string name="not_found_sdcard">请插入SD外部存储卡</string>
+    <!-- 服务连接 -->
+    <string name="net_connect_success">网络连接成功</string>
+    <string name="net_connect_failure">网络已关闭</string>
+
+    <!-- LoginTask -->
+    <string name="task_info">请稍后,正在登录&#8230;&#8230;&#8230;</string>
+    <string name="login_success">登录成功</string>
+    <!--     <string name="login_failure">用户名或密码不正确</string> -->
+    <string name="login_failure">登录失败</string>
+    <string name="server_connect_failure">连接服务器失败</string>
+    <string name="server_connect_failure_no_operation">连接服务器失败,无法进行此操作</string>
+    <string name="unknow_error">未知错误</string>
+    <string name="double_click_exit">双击退出系统</string>
+
+    <!-- LEFT FRAGMENT -->
+    <string name="menu_add_person">添加联系人</string>
+    <string name="menu_add_room">添加群组</string>
+
+    <!-- LoginActivity -->
+    <string name="login_title">安全即时通登录</string>
+    <string name="login_btn">登录</string>
+    <string name="account_need">请输入登录账号</string>
+    <string name="password_need">请输入登录密码</string>
+    <string name="loginName">账号</string>
+    <string name="password">密码</string>
+    <string name="remember_password">记住密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="hide_login">隐身登录</string>
+    <string name="setting_info">配置信息</string>
+    <string name="warning_info">不能为空</string>
+    <string name="login_timeout">登录超时，请重试</string>
+    <string name="pincode_need">请输入签名证书PIN码</string>
+    <string name="pincode">PIN码</string>
+    <string name="sd_in">内置SD卡</string>
+    <string name="sd_out">外置SD卡</string>
+    <string name="system_copy">内容已复制到粘贴板</string>
+
+    <!-- 登录出错信息 -->
+    <string name="xmpp_err_405">用户名出错或者当前用户已登录</string>
+    <string name="xmpp_normal_err_401">密码出错</string>
+    <string name="xmpp_cert_err_401">PIN码出错</string>
+    <string name="xmpp_err_403">用户被禁止登录</string>
+    <string name="xmpp_err_502">连接不上服务器，确认IP和端口是否正确</string>
+    <string name="xmpp_err_408">登录超时</string>
+    <string name="xmpp_err_net">没有网络</string>
+    <string name="xmpp_err_other">登录失败，其它错误</string>
+    <string name="spkm_err_01">双向认证失败,验签失败</string>
+    <string name="spkm_err_02">双向认证失败,证书非法</string>
+    <string name="spkm_err_03">双向认证失败,用户不存在</string>
+    <string name="spkm_err_04">双向认证失败,用户被冻结</string>
+    <string name="spkm_err_05">双向认证失败,证书不存在</string>
+    <string name="spkm_err_06">双向认证失败,证书过期</string>
+    <string name="spkm_err_07">双向认证失败,证书过期</string>
+    <string name="spkm_err_08">双向认证失败，服务器IP和端口连接失败</string>
+    <string name="spkm_err_09">双向认证失败，签名证书PIN码错误</string>
+    <string name="spkm_err_10">双向认证失败,其它错误</string>
+    <string name="spkm_cert_sn">证书序列号</string>
+    <string name="spkm_cert_subject">证书主题</string>
+    <string name="spkm_cert_issuer">证书颁发者</string>
+    <string name="spkm_cert_sdate">于以下日期之前无效</string>
+    <string name="spkm_cert_edate">于以下日期之后无效</string>
+    <string name="spkm_cert_pin">证书PIN码</string>
+    <string name="save_err">保存失败！</string>
+
+
+    <!-- LoginSettingActivity -->
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="confirm">确定</string>
+    <string name="submit">提交</string>
+    <string name="clear">清除</string>
+    <string name="bnt_check_text">验证证书</string>
+    <string name="server_ip_need">请填写服务器IP</string>
+    <string name="server_ip">服务地址</string>
+    <string name="server_port_need">请填写服务器端口</string>
+    <string name="server_port">服务端口</string>
+    <string name="update_server_ip_need">请填写升级服务器IP地址</string>
+    <string name="update_server_ip">升级地址</string>
+    <string name="update_server_port_need">请填写升级服务器端口号</string>
+    <string name="update_server_port">升级端口</string>
+    <string name="save_success">系统配置保存成功</string>
+    <string name="menu_settings">设置</string>
+    <string name="sign_cert_file">签名证书</string>
+    <string name="sign_cert_pin">签名证书PIN码</string>
+    <string name="sign_cert_pin_need">请输入签名证书PIN码</string>
+    <string name="sign_cert_file_need">请选择签名证书</string>
+    <string name="encrypt_cert_file">加密证书</string>
+    <string name="encrypt_cert_pin">加密证书PIN码</string>
+    <string name="encrypt_cert_file_need">请选择加密证书</string>
+    <string name="encrypt_cert_pin_need">请输入加密证书PIN码</string>
+    <string name="sign_cert_no_fong">请设置签名证书地址</string>
+    <string name="spkm_server_sign_cert_no_fong">找不到服务器签名公钥证书</string>
+    <string name="encrypt_cert_no_fong">请设置加密证书地址</string>
+    <string name="pin_no_space">请输入正确的PIN码</string>
+    <string name="user_pass_no_space">账号和密码不能为空</string>
+    <string name="server_ip_tip">请输入正确的IP地址</string>
+
+    <!-- ImageBrowserActivity -->
+    <string name="image_save_success">图片已保存到本地</string>
+
+    <!-- edit pass -->
+    <string name="user_old_pass">旧密码</string>
+    <string name="user_old_pass_need">请输入旧密码</string>
+    <string name="user_new_pass">新密码</string>
+    <string name="user_new_pass_need">请输入新密码</string>
+    <string name="user_re_new_pass">确认新密码</string>
+    <string name="user_re_new_pass_need">请重新输入新密码</string>
+    <string name="user_edit_but">提交修改</string>
+
+    <!-- SERVER -->
+    <string name="message_type_pic">【图片信息】</string>
+    <string name="message_type_sound">【语音信息】</string>
+    <string name="message_type_doc">【文件信息】</string>
+    <string name="message_type_smilies">【表情信息】</string>
+    <string name="message_type_text">【文本信息】</string>
+    <string name="message_type_email">【邮件信息】</string>
+    <string name="message_type_crm">【CRM信息】</string>
+    <string name="freesize_less_file">接收的文件(${fileName})太大,没有足够的空间接收！</string>
+
+    <!-- 消息信息 -->
+    <string name="chat_msg_tip_pic">图片</string>
+    <string name="chat_msg_tip_camera">拍照</string>
+    <string name="chat_msg_tip_voice">语音</string>
+    <string name="chat_msg_tip_file">文件</string>
+
+    <!-- 用户状态 -->
+    <string name="user_status_line">在线</string>
+    <string name="user_status_noline">离线</string>
+    <string name="user_status_nonet">掉线</string>
+    <string name="user_select">选择用户</string>
+
+    <!-- 发送状态 -->
+    <string name="msg_send_send_error">发送失败</string>
+    <string name="msg_send_send_send">已发送</string>
+    <string name="msg_send_send_arrive">已送达</string>
+    <string name="msg_send_send_read">已查阅</string>
+    <string name="msg_send_send_err_info">发送信息失败</string>
+
+    <string name="jid_servername">smack</string>
+    <string name="login_prompt">登录中</string>
+    <string name="msg_sending">发送中</string>
+    <string name="check_cert">检查证书中</string>
+    <string name="decode_msg">解密信息中</string>
+    <string name="loading_msg">加载信息中</string>
+    <string name="loadin_pic_msg">加载图片中</string>
+    <string name="loadin_file_msg">共享文件中</string>
+    <string name="loadin_transfe_msg">传输文件中</string>
+    <string name="cert_not_find">查找不到证书，请确认</string>
+    <string name="cert_user_not_find">找不到${user}的证书，不能发送密文信息！</string>
+    <string name="cert_curr_user_not_find">找不到您的公钥证书，无法加解密操作！</string>
+    <string name="key_curr_user_not_find">获取密钥失败，无法发送加密信息！</string>
+    <string name="loading_chatkey">正在加载个人会话密钥</string>
+
+    <!-- 录音提示 -->
+    <string name="record_start">按住录音</string>
+    <string name="record_cancel">取消录音</string>
+    <string name="record_send">松开发送</string>
+    <string name="record_time_out">时间太短</string>
+    <string name="record_play">语音消息，点击播放</string>
+    <string name="record_playing">正在播放</string>
+
+    <!-- 消息 -->
+    <string name="new_chat_msg_notice">你有一条新消息</string>
+    <string name="new_sys_msg_notice">你有一条系统消息</string>
+    <string name="new_msg_text">新消息</string>
+    <string name="new_room_msg_text">群消息</string>
+
+    <!-- 设置界面 -->
+    <string name="sysset_save_ok">保存配置完成</string>
+    <string name="userstatus_set_dialog_title">设置用户状态</string>
+    <string name="feedback_title">消息推送 - 信息反馈</string>
+    <string name="feedback_content">请输入反馈信息</string>
+    <string name="newpass_length">密码长度为6到12位</string>
+    <string name="newpass_must">密码必须包含大写字母，小写字母和数字</string>
+    <string name="passedit_success">密码修改成功</string>
+    <string name="passedit_false">密码修改失败，请重试</string>
+    <string name="passedit_oldpass_false">旧密码验证失败，请重新输入旧密码！</string>
+    <string name="passedit_no_rep">新密码输入不一致,请再输入一次！</string>
+    <string name="passedit_success_tip">修改密码成功,请稍后重新登录！</string>
+    <string name="passedit_false_tip">修改密码失败,请确认密码正确！</string>
+    <string name="feedback_suc">提交成功,感谢您的反馈!</string>
+    <string name="feedback_false">反馈信息失败，请稍后再试!</string>
+
+    <string name="load_user_info">加载个人信息中</string>
+    <string name="update_user_info">同步头像信息中</string>
+    <string name="update_user_info_err">同步信息失败，请稍后再试</string>
+    <string name="sysset_save_but_tip">保存配置信息</string>
+    <string name="sysset_update_but_tip">检查升级版本</string>
+
+    <string name="feed_back_view_title">反馈信息</string>
+    <string name="feed_back_hint">说些什么吧&#8230;&#8230;&#8230;</string>
+    <string name="feed_back_submit_btn">提  交</string>
+
+    <string name="confirm_quit">确认退出</string>
+
+    <!-- 个人信息 -->
+    <string name="my_sex">性别</string>
+    <string name="my_unit">单位</string>
+    <string name="my_signature">职务</string>
+    <string name="my_phone">手机</string>
+    <string name="my_tel">电话</string>
+    <string name="my_email">邮箱</string>
+
+    <!-- 提示消息 -->
+    <string name="tip_title">提示信息</string>
+    <string name="tip_del_content">确认要删除所有记录吗？</string>
+    <string name="tip_ok">确定</string>
+    <string name="tip_no">取消</string>
+    <string name="tip_ignore">忽略</string>
+    <string name="tip_down">下载</string>
+    <string name="tip_down_err">下载失败</string>
+    <string name="tip_down_suc">下载成功</string>
+    <string name="tip_down_cancal">取消下载</string>
+    <string name="tip_down_del">删除</string>
+
+    <!--  文件操作  -->
+    <string name="file_not_open">无法打开,不支持此文件类型！</string>
+    <string name="file_size_limit">请选择小于20M的文件!</string>
+    <string name="file_transfer_faile">发送失败</string>
+    <string name="file_transfer_succ">已发送</string>
+    <string name="file_down_faile">未下载</string>
+    <string name="file_down_succ">已下载</string>
+    <string name="file_down_tip">下载文件</string>
+    <string name="file_down_open_tip">打开文件</string>
+    <string name="file_down_tilte">下载界面</string>
+    <string name="file_down_endTime">${endTime}到期</string>
+    <string name="file_down_outTime">文件已过期</string>
+
+    <!-- 登录类型 -->
+    <string name="client_pc">PC登录</string>
+    <string name="client_android">Android登录</string>
+
+    <!-- TAB功能名称 -->
+    <string name="tabs_chat">会话消息</string>
+    <string name="tabs_sys">系统消息</string>
+    <string name="tabs_roster">联系人</string>
+    <string name="tabs_contact">组织架构</string>
+    <string name="tabs_room">群组列表</string>
+
+    <!-- 双向认证 -->
+    <string name="spkm_socket_err">双向认证失败，服务器IP和端口连接失败！</string>
+    <string name="spkm_signpin_err">双向认证失败，签名证书PIN码错误！</string>
+    <string name="spkm_common_err">双向认证失败:</string>
+    <string name="spkm_cert_check_err">验证证书失败！</string>
+    <string name="spkm_cert_check_suc">验证证书成功！</string>
+    <string name="spkm_cert_setting">证书设置</string>
+    <string name="spkm_sigle_cert_tip">单证书</string>
+    <string name="spkm_both_cert_tip">双证书</string>
+    <string name="spkm_sel_device_tip">加密设备</string>
+    <string name="spkm_sel_cert_tip">证书信息</string>
+    <string name="spkm_encrypt_pin_err_tip">加密证书验证失败!</string>
+    <string name="spkm_sign_pin_err_tip">签名证书验证失败!</string>
+    <string name="spkm_no_sel_device_type">请选择加密设备类型</string>
+    <string name="spkm_cert_notfond_tip">请选择证书文件！</string>
+    <string name="spkm_cert_notpin_tip">请输入证书PIN码！</string>
+    <string name="spkm_cert_notdrive_tip">加载加密设备失败！</string>
+
+    <!-- 人员搜索 -->
+    <string name="search_hit_word">搜索</string>
+    <string name="searchBtn">查找</string>
+    <string name="searchHint">请输入用户关键词</string>
+    <string name="searchDeltext">清空搜索框内容</string>
+    <string name="searchDialogText">正在查询</string>
+    <string name="groupName_title">组名称</string>
+    <string name="group_name_hint">请输入组名称</string>
+    <string name="group_remark_title">组描述</string>
+    <string name="grou_remark_hint">请输入组描述</string>
+    <string name="add_group_title">添加新组</string>
+    <string name="modify_group_title">修改组信息</string>
+    <string name="search_err_tip">接口调用失败，暂时无法查询</string>
+    <string name="search_user_title">查询用户</string>
+    <string name="search_result_null">查询结果为空</string>
+
+    <!-- 自定义分组 -->
+    <string name="cg_default">我的好友</string>
+    <string name="cg_tip">分组</string>
+    <string name="cg_add_user">添加用户</string>
+    <string name="cg_del_user">删除用户</string>
+    <string name="cg_manager_tip">用户组管理</string>
+    <string name="cg_add_group">添加分组</string>
+    <string name="cg_add_group_have_err">分组已经存在</string>
+    <string name="cg_add_group_no_space">分组名称不能为空</string>
+    <string name="cg_add_group_name_tip">请输入新分组名称</string>
+    <string name="page_last_page_tip">最后一页，无其他记录</string>
+    <string name="cg_add_user_succ">添加用户成功</string>
+    <string name="cg_add_user_false">添加用户失败,请稍后再试</string>
+    <string name="cg_del_user_tip">确认要删除用户(${user})吗?</string>
+    <string name="cg_del_user_succ">删除用户成功</string>
+    <string name="cg_del_user_false">删除用户失败,请稍后再试</string>
+    <string name="cg_edit_group_succ">修改分组成功</string>
+    <string name="cg_edit_group_false">修改分组失败,请稍后再试</string>
+    <string name="cg_del_group_succ">删除分组成功</string>
+    <string name="cg_del_group_false">删除分组失败,请稍后再试</string>
+    <string name="cg_user_manager">用户管理</string>
+    <string name="cg_group_manager">分组管理</string>
+    <string name="cg_contact_manager">添加到分组</string>
+    <string name="cg_group_del_tip">提示：删除分组之后，分组下面所有的用户将移动到“我的好友”分组</string>
+    <string name="cg_edit_group">修改分组</string>
+    <string name="cg_default_tip">"我的好友"是默认分组，不能修改和删除</string>
+    <string name="cg_have_tip">(${user})已经在用户组中存在</string>
+    <string name="cg_no_join_self_tip">不能添加自己为好友</string>
+    <string name="cg_add_roster">添加联系人</string>
+    <string name="cg_no_chat_self">不能选择自己</string>
+
+    <string name="client_type">客户端类型</string>
+
+    <!-- 验证信息提示 -->
+    <string name="verify_phone_special_code">手机号码不能包含特殊字符,且长度不能大于50</string>
+    <string name="verify_tel_special_code">电话号码不能包含特殊字符,且长度不能大于50</string>
+    <string name="verify_email_error">邮箱地址不正确</string>
+
+    <!-- 性别 -->
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    
+    <string name="register_name_digits">
+      <![CDATA[
+        0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ~!@#$%^&*()_+=-{}|[]\;,.\'"<>?/`
+      ]]>
+   </string>
+
+
+    <!-- 从中间件上下载的组织机构和人员的密钥 -->
+    <string name="contact_key">koal.zz</string>
+
+
+    <string name="sample_content">Sample of dragging the content.\nThe menu consists of a ListView, for which the
+        active position is saved through configuration changes.\nAdditionally, if the menu is open, a back press will
+        close it.
+    </string>
+
+    <string name="sample_window">Sample of dragging the entire window.\nThe menu is a simple ScrollView, with a click
+        listener set on each item.\nThe drawer will animate slightly open, to make it more discoverable.\nAdditionally,
+        if the menu is open, a back press will close it.
+    </string>
+
+    <string name="sample_listactivity">Sample of how to use the drawer with ListActivity.\nWhen running on ICS or
+        greater, the ActionBar up button will blink until clicked by the user. This is done to make the menu more
+        discoverable.\nAdditionally, if the menu is open, a back press will close it.
+    </string>
+
+    <string name="sample_rightmenu">This sample shows how to position the menu to the right of the content.\nRun on
+        an API14+ device to see how it interacts with the overflow button.
+    </string>
+
+    <string name="sample_topmenu">This sample shows how to position the menu above the content.</string>
+
+    <string name="sample_bottommenu">This sample shows how to position the menu below the content.</string>
+
+    <string name="sample_layout">This sample shows how to use the drawer in a layout file.
+        \nThe top drawer is used in this sample.
+    </string>
+
+    <string name="sample_static">This sample shows how to attach a drawer that is always visible.</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_content_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/page_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_content_bg"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/job_title_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:gravity="start"
+                android:hint="输入作业标题"
+                android:lines="1"
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+            <EditText
+                android:id="@+id/job_info_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:gravity="start"
+                android:hint="写下作业内容"
+                android:lines="4"
+                android:paddingLeft="50px"
+                android:paddingRight="50px" />
+
+            <com.youqd.kind.ckind.util.MyGridView
+                android:id="@+id/select_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:numColumns="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:verticalSpacing="10px" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/select_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20px">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_jiahao" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="20px"
+                    android:text="添加照片、视频"
+                    android:textSize="36px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/sta_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="20px"
+                    android:text="开始时间："
+                    android:textSize="36px" />
+
+                <TextView
+                    android:id="@+id/sta_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="20px"
+                    android:text="点击选择"
+                    android:textColor="@color/themes_color"
+                    android:textSize="36px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/end_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="20px"
+                    android:text="结束时间："
+                    android:textSize="36px" />
+
+                <TextView
+                    android:id="@+id/end_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="20px"
+                    android:text="点击选择"
+                    android:textColor="@color/themes_color"
+                    android:textSize="36px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <Button
+                android:id="@+id/login_submit"
+                style="@style/MMBigBlueButton"
+                android:layout_width="match_parent"
+                android:layout_height="85px"
+                android:layout_marginLeft="100px"
+                android:layout_marginRight="100px"
+                android:layout_marginTop="20px"
+                android:onClick="onClick"
+                android:text="发布"
+                android:textSize="31px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+</com.zhy.autolayout.AutoLinearLayout>

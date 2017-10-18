@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/main_content_bg">
+
+    <include layout="@layout/page_title" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/record_src"
+            android:text="来自二班"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/record_time"
+            android:text="2016-02-12 08:30"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/main_h_bg"
+        android:layout_height="@dimen/dp1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/icon_record_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/record_content"
+            android:text="　　根据幼儿园卫生保健工作要求，实验幼儿园联合县妇幼保健院于5月15日、16日为全园幼儿进行了春季体检，此次体检主要是对幼儿身高、体重、视力、龋齿、血色素等方面进行常规健康检查，基本涵盖幼儿生长发育的全部重要指标。
+当天，随着一群白衣天使的到来，实幼孩子们的健康体检开始了。从大班到小班，孩子们排着整齐的队伍，一一进行体检。验血处可以看到咬紧牙关、忍住不哭的小班宝宝；体检中，医生们分工明确，态度温和，对每一位幼儿的检查都做了详细的记录；老师们用鼓励、表扬的方式给予孩子们心理疏导，积极营造轻松的检查氛围，整个过程井然有序，顺利完成了幼儿的体检任务。
+    通过一年一度的身体检查，不仅可以及时了解幼儿的生长发育及身体状况，对孩子的疾病做到早发现早治疗，同时也提高了幼儿爱护自己身体的意识，让幼儿园及家长对幼儿的身体健康情况有了更深入地了解，更为幼儿的健康、快乐的成长提供了依据。每年一次的幼儿体检已成为幼儿园卫生保健工作的一项常规内容。"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white3">
+
+    <include layout="@layout/page_title"></include>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/forget_phone_edit"
+            android:hint="手机号码"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/icon_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="14sp"
+
+            android:inputType="phone"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="@color/white"
+        android:layout_marginTop="1px"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:hint="验证码"
+            android:id="@+id/forget_code_edit"
+            android:drawablePadding="10dp"
+
+            android:drawableLeft="@drawable/icon_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:background="@null"
+            android:inputType="number"
+            android:textSize="14sp"
+
+            android:layout_marginRight="300px"
+            />
+
+        <com.youqd.kind.ckind.widget.CodeBtn
+            android:id="@+id/get_code_btn"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/forget_getpass"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:textSize="12sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="30px"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:background="@color/themes_color"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/password"
+            android:hint="新密码"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/icon_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="14sp"
+
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/forget_submit"
+        android:text="@string/forget_submit"
+        android:onClick="onClick"
+        android:layout_width="600px"
+        android:layout_height="80px"
+        android:background="@color/themes_color"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30px"/>
+</com.zhy.autolayout.AutoLinearLayout>

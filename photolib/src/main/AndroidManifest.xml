@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chenxiu.sh.com.photolib">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name="tm.dwcorephoto.MainActivity"
+ >
+        </activity>
+        <activity
+            android:name="tm.dwcorephoto.SingleShow"
+            android:theme="@style/Theme" />
+        <activity
+            android:name="tm.dwcorephoto.PreviewImage"
+            android:theme="@style/Theme" />
+        <activity
+            android:name="tm.dwcorephoto.ListViewActivity"
+            android:theme="@style/Theme" >
+        </activity>
+        <activity
+            android:name="tm.dwcorephoto.GridViewActivity"
+            android:theme="@style/Theme" >
+        </activity>
+        <activity
+            android:name="tm.dwcorephoto.MixShowActivity"
+            android:theme="@style/Theme"
+            android:windowSoftInputMode="adjustResize"
+            >
+        </activity>
+    </application>
+
+</manifest>

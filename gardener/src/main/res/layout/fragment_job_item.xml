@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/setting_item_selector">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_class_job"
+            android:src="@drawable/icon_class_job"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:scaleType="centerCrop"
+            android:layout_height="60dp" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/job_name"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="根据幼儿园卫生保健工作要求"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/job_class"
+                android:textSize="18dp"
+                android:textColor="@color/themes_color"
+                android:text="中二小苹果版"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/job_content"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/job_finish"
+            android:src="@drawable/icon_no_finish"
+            android:layout_width="80dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/job_time"
+            android:text="发布时间  2016-02-12 08:30"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.youqd.kind.ckind.util.MyGridView
+        android:id="@+id/kanner"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:horizontalSpacing="5dp"
+        android:layout_margin="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp"
+        />
+    <LinearLayout
+        android:id="@+id/sl_student"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qiandao_yi"
+                android:textSize="20dp"
+                android:textColor="@color/main_green_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:text="已完成作业宝宝"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qiandao_wei"
+                android:textSize="20dp"
+                android:textColor="@color/main_green_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="未完成作业宝宝"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.youqd.kind.ckind.util.MyGridView
+            android:id="@+id/recodeList"
+            android:layout_weight="1"
+            android:numColumns="2"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:transcriptMode="normal"
+            android:divider="@null"
+            android:choiceMode ="singleChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:background="#DADADA"></View>
+        <com.youqd.kind.ckind.util.MyGridView
+            android:id="@+id/recodeList2"
+            android:layout_weight="1"
+            android:numColumns="2"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:transcriptMode="normal"
+            android:divider="@null"
+            android:choiceMode ="singleChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

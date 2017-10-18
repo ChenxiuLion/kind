@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white3">
+
+    <include layout="@layout/page_title"></include>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="　手机号"
+            android:textColor="@color/black"
+            android:focusable="true"
+            android:drawableLeft="@drawable/icon_phone"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/checkcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="　验证码"
+            android:textColor="@color/black"
+            android:focusable="true"
+            android:drawableLeft="@drawable/icon_phone"
+            />
+
+        <Button
+            style="@style/MMBigBlueButton"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@id/checkcode"
+            android:text="@string/forget_getpass"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/MMBigBlueButton"
+        android:id="@+id/forget_submit"
+        android:text="@string/forget_submit"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

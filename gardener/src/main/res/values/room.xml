@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 会议室 -->
+    <!-- 会议服务名称 -->
+    
+    <string name="group_service_name">conference.koal.zz</string>
+    <string name="room_list">群组列表</string>
+    <string name="room_add">添加群</string>
+    <string name="room_set">群设置</string>
+    <string name="room_durable">临时群</string>
+    <string name="title_activity_room_set">RoomSetActivity</string>
+    <string name="room_line">群成员：${lineCount}人</string>
+    <string name="room_no_subject">无主题</string>
+    <string name="room_no_desc">无详细介绍</string>
+    <string name="share_file_text">共享文件</string>
+    <string name="share_file_no">没有共享文件</string>
+    <string name="share_file_false">共享文件失败</string>
+    
+    <string name="room_invite_text">回嘛，群聊嘛</string>
+    <string name="room_kick_text">踢人了,注意</string>
+    
+    <string name="room_invite">已邀请${userName}加入群</string>
+    <string name="room_join">${userName}加入群</string>
+    <string name="room_leave">${userName}离开群</string>
+    <string name="room_kicked">${userName}已经离开出群</string>
+    
+    <string name="room_user_exit_tip">您已经不在群中，无法进行此操作！</string>
+    <string name="room_share_file_tip">共享文件</string>
+    <string name="room_join_error">加入${roomName}群失败</string>
+    <string name="room_loading">发送请求中</string>
+    <string name="room_input_name">请填写群名称,最多30个字符</string>
+    <string name="room_join_error_401">群要求输入正确的密码！</string>
+    <string name="room_join_error_403_407">您没有加入群权限！</string>
+    <string name="room_join_error_404">群被锁或者群不存在！</string>
+    <string name="room_destory_error_403_407">操作失败！</string>
+    <string name="room_destory">加入群失败,群被销毁</string>
+    
+    <string name="room_leave_my">退出群</string>
+    <string name="room_destroy_my">销毁</string>
+    <string name="room_nonsupport_resend">群已经销毁，发送信息失败</string>
+    
+    <string name="room_key_no_fond">获取群密钥出错,无法发送加密信息</string>
+    <string name="room_key_no_parse">解析群密钥出错</string>
+    
+    
+    <string name="rooom_pass_no_null">请输入正确的群密码</string>
+    <string name="room_name_nonull">群名称不能为空!</string>
+    <string name="room_name_max_length">群名称不能大于30个字符!</string>
+    <string name="room_pass_noequal">两次输入密码不一样，请重新设置!</string>
+    
+    <string name="room_create_success">群创建成功!</string>
+    <string name="room_create_false">群创建出错，请稍后再试!</string>
+    
+    <string name="room_del_member_success">删除成员成功!</string>
+    <string name="room_del_member_false">删除成员失败!</string>
+    
+    <string name="no_room_info">未查询到消息</string>
+    <string name="room_set_pass_tip">设置密码</string>
+    <string name="room_pass">群密码</string>
+    <string name="room_re_pass">请确认密码</string>
+    <string name="room_set_pass">设置群密码</string>
+    <string name="room_do_destory">销毁</string>
+    
+    <string name="room_kick_mem">踢出</string>
+    <string name="room_invite_mem">邀请</string>
+    <string name="room_search_word">输入群名字</string>
+    
+    <string name="room_name_tip">群名称</string>
+    <string name="room_desc_tip">群描述</string>
+    <string name="room_subject_tip">群主题</string>
+    <string name="room_create_tip">创建群</string>
+    
+    <string name="room_out_tip">您已不在该群中</string>
+   
+</resources>

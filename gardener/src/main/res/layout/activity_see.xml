@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context="com.youqd.kind.ckind.activity.SeeActivity">
+
+    <ImageView
+        android:id="@+id/seeTopPic"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_see_class"
+        android:layout_width="match_parent"
+        android:layout_height="260px" />
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000000"
+        >
+
+        <com.pili.pldroid.player.widget.PLVideoView
+            android:id="@+id/video_v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/video_erro_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本时段直播未开放"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            />
+        <FrameLayout
+            android:id="@+id/zzplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <LinearLayout
+            android:id="@+id/play_btn_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:id="@+id/video_play"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_see_paly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/shikan_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="试看1分钟"
+                android:visibility="gone"
+                android:layout_marginTop="5px"
+                android:textColor="@color/white"
+                android:textSize="36px"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/play_lin"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:visibility="gone"
+            android:background="#50000000"
+            >
+            <ImageView
+                android:id="@+id/stop_btn"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/icon_defult_sm_play"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:id="@+id/video_stuas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="直播中"
+                android:textColor="#fff"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="10sp"
+                />
+
+            <ImageView
+                android:id="@+id/max_btn"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/icon_video_max"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="20dp"
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/seeBtmPic"
+        android:src="@drawable/icon_see_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="100dp"
+        />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

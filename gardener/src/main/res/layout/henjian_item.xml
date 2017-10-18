@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tiwen_chen"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_yuan_red"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/name_chen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

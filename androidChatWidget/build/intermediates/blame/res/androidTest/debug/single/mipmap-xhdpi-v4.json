@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading1.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading1.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading01.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading01.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading07.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading07.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_3.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_3.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading04.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading04.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_1.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_1.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading7.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading7.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading_bg.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading_bg.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading05.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading05.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_7.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_7.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/default_ptr_flip.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading4.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading4.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_10.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_10.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_4.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_4.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading08.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading08.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_5.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_5.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/default_ptr_arrow.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/default_ptr_arrow.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_2.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_2.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading02.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading02.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading2.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading2.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading5.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading5.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_11.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_11.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading8.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading8.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_8.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_8.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading6.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading6.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_loading3.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_loading3.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading03.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading03.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_6.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_6.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/ic_com_loading06.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/ic_com_loading06.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_12.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_12.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/icon_defult_loding_9.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-xhdpi-v4/icon_defult_loding_9.png"
+    }
+]

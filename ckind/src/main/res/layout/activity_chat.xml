@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_content_bg"
+    android:orientation="vertical" >
+    <com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/page_title"
+        tools:context=".base.KingActivity">
+
+        <com.zhy.autolayout.AutoFrameLayout
+            android:id="@+id/base_back"
+            android:layout_width="88px"
+            android:layout_height="88px"
+            android:background="@color/page_title"
+            >
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/base_back_image"
+                android:layout_width="148px"
+                android:layout_height="88px"
+                android:onClick="onBack"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:background="@color/page_title"
+                >
+
+            </com.zhy.autolayout.AutoLinearLayout>
+            <ImageView
+                android:background="@drawable/icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30px"
+                android:layout_marginLeft="30px"
+                android:layout_gravity="bottom"
+                />
+        </com.zhy.autolayout.AutoFrameLayout>
+
+
+        <TextView
+            android:id="@+id/top_title"
+            android:textSize="16dp"
+            android:text="这是标题"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/rightId"
+            android:src="@drawable/common_icon_arrow_right_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"/>
+    </com.zhy.autolayout.AutoFrameLayout>
+
+
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="还没有留言"
+        />
+    <ListView
+        android:id="@+id/messageListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="3dp"
+        android:transcriptMode="normal"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7fd8d8d8" />
+
+    <com.jialin.chat.MessageInputToolBox
+        android:id="@+id/messageInputToolBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.zhy.autolayout.AutoLinearLayout>

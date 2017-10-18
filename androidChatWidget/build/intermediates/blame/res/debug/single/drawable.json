@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/button.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/button.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_12.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_12.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/material_card_nos.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/material_card_nos.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_4.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_4.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_5.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_5.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/fuction_item_backgroup.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/drawable/fuction_item_backgroup.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/editstyle.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/editstyle.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/material_dialog_window.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/material_dialog_window.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/chatfrom_bg.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/drawable/chatfrom_bg.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/background_with_shadow.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/background_with_shadow.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/msg_state_failed_resend.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/drawable/msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/shape_chat_new.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/drawable/shape_chat_new.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_7.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_7.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_1.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_1.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/material_card.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/material_card.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_10.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_10.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_8.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_8.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_2.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_2.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/layout_selector_bg.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/layout_selector_bg.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/shape_chat_newlv.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/drawable/shape_chat_newlv.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/chatto_bg.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/drawable/chatto_bg.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_11.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_11.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_3.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_3.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_9.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_9.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/icon_defult_loding_6.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/icon_defult_loding_6.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/linebuttonstyle.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/linebuttonstyle.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/material_card_nos_pressed.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/material_card_nos_pressed.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/loding_image.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/loding_image.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/background_tab.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/drawable/background_tab.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/buttonstyle.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/buttonstyle.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/jianbianstyle.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/jianbianstyle.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/shadow_bottom.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/drawable/shadow_bottom.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_text_cursor_material.xml"
+    }
+]

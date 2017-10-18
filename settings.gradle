@@ -1,0 +1,1 @@
+include ':rkind', ':ckind', ':skind', ':viewPagerIndicator_Library', ':androidChatWidget', ':cameraSDK_GitHub', ':ninegridview', ':photolib', ':WXLikeVideoRecorderLib', ':sheetdialogue', ':imageutil', ':xiala', ':CosFundLib', ':jcvideoplayer-lib', ':cameraLibrary', ':camer', ':gardener', ':leafchart', ':kanner'

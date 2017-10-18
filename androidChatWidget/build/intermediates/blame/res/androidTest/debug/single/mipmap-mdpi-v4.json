@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-mdpi-v4/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4/default_ptr_arrow.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-mdpi-v4/default_ptr_arrow.png"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/androidTest/debug/mipmap-mdpi-v4/default_ptr_flip.png",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/mipmap-mdpi-v4/default_ptr_flip.png"
+    }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" 
+        android:state_pressed="false" 
+        android:drawable="@drawable/setting_strip_top_unpressed"/>
+    <item android:state_pressed="true">
+     	<shape android:shape="rectangle">
+            <solid android:color="@color/setting_color_pressed"/>
+        </shape>
+    </item>
+</selector>

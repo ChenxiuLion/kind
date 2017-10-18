@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_content_bg"
+    android:gravity="center"
+    tools:context="com.youqd.kind.ckind.activity.SeeActivity">
+
+    <include layout="@layout/page_title" />
+
+    <ImageView
+        android:id="@+id/seeTopPic"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_see_class"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_see_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/icon_see_paly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/seeBtmPic"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_see_btm_class"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+
+    <ImageView
+        android:onClick="onClick"
+        android:clickable="true"
+        android:src="@drawable/see_but_selector"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

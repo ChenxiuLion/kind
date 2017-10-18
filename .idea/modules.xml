@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CosFundLib/CosFundLib.iml" filepath="$PROJECT_DIR$/CosFundLib/CosFundLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WXLikeVideoRecorderLib/WXLikeVideoRecorderLib.iml" filepath="$PROJECT_DIR$/WXLikeVideoRecorderLib/WXLikeVideoRecorderLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidChatWidget/androidChatWidget.iml" filepath="$PROJECT_DIR$/androidChatWidget/androidChatWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camer/camer.iml" filepath="$PROJECT_DIR$/camer/camer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraLibrary/cameraLibrary.iml" filepath="$PROJECT_DIR$/cameraLibrary/cameraLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraSDK_GitHub/cameraSDK_GitHub.iml" filepath="$PROJECT_DIR$/cameraSDK_GitHub/cameraSDK_GitHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ckind/ckind.iml" filepath="$PROJECT_DIR$/ckind/ckind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gardener/gardener.iml" filepath="$PROJECT_DIR$/gardener/gardener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageutil/imageutil.iml" filepath="$PROJECT_DIR$/imageutil/imageutil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kanner/kanner.iml" filepath="$PROJECT_DIR$/kanner/kanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kind.iml" filepath="$PROJECT_DIR$/kind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leafchart/leafchart.iml" filepath="$PROJECT_DIR$/leafchart/leafchart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninegridview/ninegridview.iml" filepath="$PROJECT_DIR$/ninegridview/ninegridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photolib/photolib.iml" filepath="$PROJECT_DIR$/photolib/photolib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rkind/rkind.iml" filepath="$PROJECT_DIR$/rkind/rkind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sheetdialogue/sheetdialogue.iml" filepath="$PROJECT_DIR$/sheetdialogue/sheetdialogue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skind/skind.iml" filepath="$PROJECT_DIR$/skind/skind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerIndicator_Library/viewPagerIndicator_Library.iml" filepath="$PROJECT_DIR$/viewPagerIndicator_Library/viewPagerIndicator_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiala/xiala.iml" filepath="$PROJECT_DIR$/xiala/xiala.iml" />
+    </modules>
+  </component>
+</project>

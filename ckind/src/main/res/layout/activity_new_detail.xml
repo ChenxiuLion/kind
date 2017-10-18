@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/page_title">
+
+    <include layout="@layout/page_title" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="34px"
+                android:padding="20px"
+                android:background="@color/white"
+                android:textColor="#333333"
+                />
+    <com.zhy.autolayout.AutoLinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/record_src"
+            android:text=""
+            android:textSize="20px"
+            android:textColor="@color/themes_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/record_time"
+            android:text="2016-02-12 08:30"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoFrameLayout
+                android:id="@+id/new_images_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@color/white"
+                >
+                <ImageView
+                    android:id="@+id/new_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:layout_margin="20px"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/loding_ss"
+                    />
+                <ImageView
+                    android:id="@+id/viewplauy"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/video_play"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/new_images"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_margin="20px"
+                    android:src="@drawable/icon_new_di"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"
+                    android:layout_gravity="right"
+                    />
+                <TextView
+                    android:id="@+id/new_te_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_gravity="right"
+                    android:textSize="90px"
+                    android:gravity="right"
+
+                    android:lineSpacingExtra="10px"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:textColor="#fff"
+                    />
+                <TextView
+                    android:id="@+id/new_te"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_gravity="right"
+                    android:textSize="30px"
+                    android:gravity="right"
+                    android:lineSpacingExtra="10px"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="#fff"
+                    />
+            </com.zhy.autolayout.AutoFrameLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/image_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:visibility="gone"
+        >
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30px"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/record_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32px"
+            android:textColor="#333333"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="已阅读"
+                android:padding="30px"
+                android:background="#fff"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:background="@color/main_h_bg"
+                android:layout_height="1px"/>
+
+
+            <com.youqd.kind.ckind.util.MyGridView
+                android:id="@+id/user_grid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="8"
+                android:paddingTop="10dp"
+                android:paddingLeft="20px"
+                android:background="@color/white"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/white"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

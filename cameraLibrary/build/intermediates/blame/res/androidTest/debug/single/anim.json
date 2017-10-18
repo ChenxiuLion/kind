@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/chenxiu/kind/F:\\kind\\cameraLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tempview_show.xml",
+        "source": "/Users/chenxiu/kind/F:\\kind\\cameraLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\tempview_show.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/E:\\kind\\cameraLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tempview_show.xml",
+        "source": "/Users/chenxiu/kind/E:\\kind\\cameraLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\tempview_show.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/cameraLibrary/build/intermediates/res/merged/androidTest/debug/anim/tempview_show.xml",
+        "source": "/Users/chenxiu/kind/cameraLibrary/build/intermediates/bundles/debug/res/anim/tempview_show.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/E:\\kind\\cameraLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\focusview_show.xml",
+        "source": "/Users/chenxiu/kind/E:\\kind\\cameraLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\focusview_show.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/cameraLibrary/build/intermediates/res/merged/androidTest/debug/anim/focusview_show.xml",
+        "source": "/Users/chenxiu/kind/cameraLibrary/build/intermediates/bundles/debug/res/anim/focusview_show.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/F:\\kind\\cameraLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\focusview_show.xml",
+        "source": "/Users/chenxiu/kind/F:\\kind\\cameraLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\focusview_show.xml"
+    }
+]

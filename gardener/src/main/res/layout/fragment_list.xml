@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_content_bg"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/main_content_bg"
+        />
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="未安排教学计划"
+        android:textColor="#70989898"
+        android:paddingTop="20dp"
+        android:textSize="18sp"
+        android:background="#FFF"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <com.youqd.kind.ckind.widget.MyListView
+                android:id="@+id/recodeList"
+                android:background="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:transcriptMode="normal"
+                android:choiceMode ="singleChoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

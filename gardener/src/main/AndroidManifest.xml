@@ -1,0 +1,355 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.kind.chx.gardener">
+    <permission
+        android:name="com.kind.chx.gardener.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <!-- Required -->
+
+<!-- 申请权限 -->
+
+    <uses-permission android:name="com.kind.chx.gardener.permission.JPUSH_MESSAGE" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.BROADCAST_STICKY" />
+<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+<uses-permission android:name="android.permission.VIBRATE" />
+<!-- 录音录制声音通过手机或耳机的麦克 -->
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<!-- 能够启动照相机设备的请求 -->
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<!-- 在SDCard中创建与删除文件权限 -->
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+<!-- 往SDCard写入数据权限 -->
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.GET_TASKS" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<!--添加可以向外拨打电话的权限  -->
+<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+<application
+    android:name="com.youqd.kind.ckind.base.BaseApplication"
+    android:allowBackup="true"
+    android:icon="@drawable/icon_v3_logo"
+    android:label="@string/app_name"
+    android:theme="@style/Default.NoTitleBar"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:replace="android:theme,android:icon"
+    >
+
+    <meta-data
+        android:name="com.baidu.lbsapi.API_KEY"
+        android:value="fyC5gUGSw6DzEXpGn7xVKtCF1IbFnB7k" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.LaucnAcitivy"
+        android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="com.youqd.kind.ckind.LoginActivity"
+        android:screenOrientation="portrait">
+
+    </activity>
+    <activity
+        android:name="com.youqd.kind.ckind.activity.MainActivity"
+        android:screenOrientation="portrait"
+
+        />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.ForgetActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.ClipActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.DynamicActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.WorkActivity"
+        android:screenOrientation="portrait" />
+
+    <activity
+
+        android:name="com.tencent.smtt.sdk.VideoActivity"
+        android:configChanges="orientation|screenSize|keyboardHidden"
+        android:exported="false"
+        android:launchMode="singleTask"
+        android:alwaysRetainTaskState="true">
+
+        <intent-filter>
+
+            <action android:name="com.tencent.smtt.tbs.video.PLAY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+
+        </intent-filter>
+
+    </activity>
+    <activity
+        android:name="com.youqd.kind.ckind.activity.CourseActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.SchoolNewActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.AddPingActivity"
+        android:screenOrientation="portrait"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:theme="@style/AnimBottomInDialog"
+        />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.AddJobPingActivity"
+        android:screenOrientation="portrait"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:theme="@style/AnimBottomInDialog"
+        />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.ViewPlayActivity"
+        android:screenOrientation="portrait"
+        android:launchMode="singleTask"
+        android:theme="@style/AnimBottomInDialog"
+        />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.LeaveActivity"
+        android:screenOrientation="portrait"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:theme="@style/AnimBottomInDialog"
+        />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.NewDetailActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.MaxVideoActivity"
+        android:screenOrientation="landscape"
+        android:launchMode="singleTask"
+        />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.ClassActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.PhotosActivity"
+        android:launchMode="singleTask"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.AddDynamicActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.AddNotifiActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.AddWorkActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.FoodActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.UpdataUserActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.EditActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.AddFamilyActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.JobActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.JobOkInfoActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.ImageActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.RecordActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.OldPasswordActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.video.VideoMainActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait" >
+
+
+
+    </activity>
+    <activity
+        android:name="com.youqd.kind.ckind.video.NewRecordVideoActivity"
+        android:screenOrientation="portrait"
+        >
+    </activity>
+
+    <activity
+        android:name="com.youqd.kind.ckind.video.PlayVideoActiviy"
+        android:screenOrientation="portrait" >
+    </activity>
+
+    <activity
+        android:name="com.youqd.kind.ckind.activity.ChatActivity"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustResize"
+        />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.BabyActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.BaiduActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.IntroActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.MsgActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.MyActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.MessgerActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.MessgerListActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.SeeActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.JobInfoActivity"
+        android:screenOrientation="portrait">
+
+    </activity>
+    <activity
+        android:name="com.youqd.kind.ckind.activity.ContactActivity"
+        android:screenOrientation="portrait" />
+
+    <activity
+        android:name="com.youqd.kind.ckind.activity.Contact2Activity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.AccountActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name="com.youqd.kind.ckind.activity.BBInfoActivity"
+        android:screenOrientation="portrait"/>
+
+    <meta-data
+        android:name="design_width"
+        android:value="750"/>
+    <meta-data
+        android:name="design_height"
+        android:value="1334"/>
+
+    <!-- Required  SDK核心功能-->
+    <service
+        android:name="cn.jpush.android.service.DownloadService"
+        android:enabled="true"
+        android:exported="false" >
+    </service>
+
+    <!-- Required SDK 核心功能-->
+    <!-- 可配置android:process参数将PushService放在其他进程中 -->
+    <service
+        android:name="cn.jpush.android.service.PushService"
+        android:process=":mult">
+        <intent-filter>
+            <action android:name="cn.jpush.android.intent.REGISTER" />
+            <action android:name="cn.jpush.android.intent.REPORT" />
+            <action android:name="cn.jpush.android.intent.PushService" />
+            <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+        </intent-filter>
+    </service>
+
+    <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+    <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+    <service
+        android:name="cn.jpush.android.service.DaemonService"
+        android:enabled="true"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="cn.jpush.android.intent.DaemonService" />
+            <category android:name="com.kind.chx.gardener" />
+        </intent-filter>
+
+    </service>
+
+    <!-- Required SDK核心功能-->
+    <receiver
+        android:name="cn.jpush.android.service.PushReceiver"
+        android:enabled="true">
+        <intent-filter android:priority="1000">
+            <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />   <!--Required  显示通知栏 -->
+            <category android:name="com.kind.chx.gardener" />
+        </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.USER_PRESENT" />
+            <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+        </intent-filter>
+        <!-- Optional -->
+        <intent-filter>
+            <action android:name="android.intent.action.PACKAGE_ADDED" />
+            <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+            <data android:scheme="package" />
+        </intent-filter>
+    </receiver>
+    <!-- Required SDK核心功能-->
+    <activity
+        android:name="cn.jpush.android.ui.PushActivity"
+        android:configChanges="orientation|keyboardHidden"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:exported="false">
+        <intent-filter>
+            <action android:name="cn.jpush.android.ui.PushActivity" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="com.kind.chx.gardener" />
+        </intent-filter>
+    </activity>
+    <activity android:name="com.youqd.kind.ckind.activity.AbuotActivity"
+        android:screenOrientation="portrait"
+        />
+    <activity android:name="com.youqd.kind.ckind.activity.FeedbackActivity"
+        android:screenOrientation="portrait"
+        />
+    <!-- Required SDK核心功能-->
+    <receiver android:name="cn.jpush.android.service.AlarmReceiver" android:exported="false"/>
+
+    <!-- User defined.  For test only  用户自定义的广播接收器-->
+    <receiver
+        android:name=".push.MyReceiver"
+        android:exported="false"
+        android:enabled="true">
+        <intent-filter>
+            <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!--Required  用户注册SDK的intent-->
+            <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!--Required  用户接收SDK消息的intent-->
+            <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!--Required  用户接收SDK通知栏信息的intent-->
+            <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!--Required  用户打开自定义通知栏的intent-->
+            <action android:name="cn.jpush.android.intent.CONNECTION" /><!-- 接收网络变化 连接/断开 since 1.6.3 -->
+            <category android:name="com.kind.chx.gardener" />
+        </intent-filter>
+    </receiver>
+
+    <!-- Required  . Enable it you can get statistics data with channel -->
+    <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
+    <meta-data android:name="JPUSH_APPKEY" android:value="57414edfc69cd44450d909a0" /> <!--  </>值来自开发者平台取得的AppKey-->
+
+</application>
+
+</manifest>

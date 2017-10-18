@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp">
+
+        <com.cosfund.library.widget.CircleImageView
+            android:id="@+id/salary_img"
+            android:src="@drawable/icon_girl"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:text="张小红"
+            android:textSize="14dp"
+            android:textColor="#FCC184"
+            android:id="@+id/salary_name"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="填写原因"
+            android:textSize="14dp"
+            android:background = "@drawable/shape_login_btn"
+            android:id="@+id/salary_remark"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#BABABA"
+        android:layout_marginLeft="20dp"
+        />
+</LinearLayout>

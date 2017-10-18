@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CosFundLib" />
+            <option value="$PROJECT_DIR$/WXLikeVideoRecorderLib" />
+            <option value="$PROJECT_DIR$/androidChatWidget" />
+            <option value="$PROJECT_DIR$/camer" />
+            <option value="$PROJECT_DIR$/cameraLibrary" />
+            <option value="$PROJECT_DIR$/cameraSDK_GitHub" />
+            <option value="$PROJECT_DIR$/ckind" />
+            <option value="$PROJECT_DIR$/gardener" />
+            <option value="$PROJECT_DIR$/imageutil" />
+            <option value="$PROJECT_DIR$/jcvideoplayer-lib" />
+            <option value="$PROJECT_DIR$/kanner" />
+            <option value="$PROJECT_DIR$/leafchart" />
+            <option value="$PROJECT_DIR$/ninegridview" />
+            <option value="$PROJECT_DIR$/photolib" />
+            <option value="$PROJECT_DIR$/rkind" />
+            <option value="$PROJECT_DIR$/sheetdialogue" />
+            <option value="$PROJECT_DIR$/skind" />
+            <option value="$PROJECT_DIR$/viewPagerIndicator_Library" />
+            <option value="$PROJECT_DIR$/xiala" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

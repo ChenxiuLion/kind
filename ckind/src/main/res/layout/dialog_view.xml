@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+    <TextView
+        android:id="@+id/index_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#424242"
+        android:textSize="12sp"
+        android:text="0/5"
+        android:layout_gravity="right"
+        />
+    <com.liulishuo.magicprogresswidget.MagicProgressBar
+        android:id="@+id/demo_3_mpb"
+        style="@style/demo_progress_bar"
+        app:mpb_background_color="#1AFFFFFF"
+        app:mpb_fill_color="@color/main_green_bg" />
+</LinearLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="70dp"
+    android:background="@color/color_bg">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+       />
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="35px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="88px" />
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/info_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="32px">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35px"
+            >
+            <com.youqd.kind.ckind.util.CircleImageView
+                android:src="@drawable/icon_defult_hard_bg"
+                android:layout_width="195px"
+                android:layout_height="195px"
+
+              android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+            <com.youqd.kind.ckind.util.CircleImageView
+                android:id="@+id/left_image"
+                android:src="@drawable/icon_girl"
+                android:layout_width="183px"
+                android:layout_height="183px"
+
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <TextView
+            android:id="@+id/baby_left_name"
+            android:text="Baby的妈妈"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29px"
+            android:textSize="36px"
+            android:textColor="#424242"
+            />
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/showpoplin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textSize="36px"
+                android:textColor="#bababa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/main_left_intro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/setting_item_selector">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="幼儿园简介"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/icon_in"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_h_bg"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/main_left_contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/setting_item_selector">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_yuanding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="家长通讯录"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/icon_in"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_h_bg"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/main_left_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/setting_item_selector">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_yuanding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="校园通讯录"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/icon_in"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_h_bg"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/main_left_bbInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/setting_item_selector">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_baby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="我的简介"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/icon_in"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_h_bg"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/left_add_family"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/setting_item_selector">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="班级考勤率"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/icon_in"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_h_bg"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/main_left_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/setting_item_selector">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="设置"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/icon_in"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_h_bg"/>
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

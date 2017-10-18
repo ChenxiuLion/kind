@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#BABABA"
+        android:layout_marginTop="5dp"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <com.youqd.kind.ckind.util.CircleImageView
+            android:id="@+id/baby_image"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/icon_boy"
+            android:textColor="#424242"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/boby_info_name"
+                android:text="杨小研"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/date_tv"
+                android:text="4岁3个月18天"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:textColor="@color/main_green_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#BABABA"
+        android:layout_marginLeft="20dp"/>
+    <FrameLayout
+        android:id="@+id/shengao_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身高"
+            android:paddingLeft="5dp"
+            android:textColor="#424242"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_height_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#424242"
+            android:textSize="16sp" />
+    </FrameLayout>
+    <View
+        android:id="@+id/shengao_layoutv"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="gone"
+        android:background="#BABABA"
+        android:layout_marginLeft="20dp"/>
+    <FrameLayout
+        android:id="@+id/tizhong_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体重"
+            android:textColor="#424242"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_wihgt_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#424242"
+            android:textSize="16sp" />
+    </FrameLayout>
+    <View
+        android:id="@+id/tizhong_layoutv"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#BABABA"
+        android:visibility="gone"
+        android:layout_marginLeft="20dp"/>
+    <FrameLayout
+        android:id="@+id/tiwen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体温"
+            android:paddingLeft="5dp"
+            android:textColor="#424242"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_tiwen_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#424242"
+            android:textSize="16sp" />
+    </FrameLayout>
+    <View
+        android:id="@+id/tiwen_layoutv"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="gone"
+        android:background="#BABABA"
+        android:layout_marginLeft="20dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="状态"
+            android:paddingLeft="5dp"
+            android:textColor="#424242"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="@color/themes_color"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/date_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"
+            android:textColor="#424242"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#424242"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#BABABA"
+        android:visibility="gone"
+        android:layout_marginLeft="20dp"/>
+
+    <View
+        android:id="@+id/date_layoutv"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#BABABA"
+        android:layout_marginLeft="20dp"/>
+</LinearLayout>

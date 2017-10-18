@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_phone">手机号</string>
+    <string name="login_pass">密码</string>
+    <string name="login_submit">用户登录</string>
+    <string name="login_forget">忘记密码?</string>
+    <string name="forget_getpass">点击获取</string>
+    <string name="forget_submit">确定</string>
+</resources>

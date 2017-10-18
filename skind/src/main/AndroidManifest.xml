@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.youqd.kind.skind">
+
+    <!-- 申请权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 录音录制声音通过手机或耳机的麦克 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 能够启动照相机设备的请求 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <!--添加可以向外拨打电话的权限  -->
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Default.NoTitleBar">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ForgetActivity"></activity>
+        <activity android:name=".activity.MainActivity"></activity>
+        <activity android:name=".activity.SchoolNewActivity"></activity>
+        <activity android:name=".activity.NewAddActivity"></activity>
+        <activity android:name=".activity.NewDetailActivity"></activity>
+
+        <activity android:name=".activity.SchoolNoticeActivity"></activity>
+        <activity android:name=".activity.NoticeDetailActivity"></activity>
+        <activity android:name=".activity.NoticeAddActivity"></activity>
+
+        <activity android:name=".activity.SalaryActivity"></activity>
+
+        <activity android:name=".activity.FoodActivity"></activity>
+
+        <activity android:name=".activity.CourseActivity"></activity>
+        <activity android:name=".activity.JobActivity"></activity>
+        <activity android:name=".activity.JobDetailActivity"></activity>
+
+        <activity android:name=".activity.ChatActivity"></activity>
+        <activity android:name=".activity.ChatListActivity"></activity>
+
+        <activity android:name=".activity.SeeActivity"></activity>
+
+        <activity android:name=".evaluation.EvaluationActivity"/>
+
+        <activity android:name=".activity.IntroActivity"/>
+        <activity android:name=".activity.MsgActivity"/>
+        <activity android:name=".activity.PlanActivity"/>
+
+        <activity android:name=".activity.ContactActivity"/>
+        <activity android:name=".activity.MyInfoActivity"/>
+
+        <activity android:name=".activity.StatisClassActivity"/>
+        <activity android:name=".activity.StatisUseActivity"/>
+        <activity android:name=".activity.SettingActivity"/>
+        <activity android:name=".activity.GrowAddActivity"/>
+
+        <!-- CameraSDK相册选取 -->
+        <activity android:name="com.muzhi.camerasdk.PhotoPickActivity" />
+        <activity android:name="com.muzhi.camerasdk.PreviewActivity" />
+        <activity android:name="com.muzhi.camerasdk.CropperImageActivity" />
+        <activity android:name="com.muzhi.camerasdk.FilterImageActivity" />
+        <activity android:name="com.muzhi.camerasdk.CutActivity" />
+        <activity android:name="com.muzhi.camerasdk.PhotoEnhanceActivity" />
+        <activity android:name="com.muzhi.camerasdk.GraffitiActivity" />
+    </application>
+
+</manifest>

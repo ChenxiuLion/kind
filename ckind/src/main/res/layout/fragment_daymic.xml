@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.youqd.kind.ckind.activity.SeeActivity">
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="148px"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/page_title"
+        tools:context=".base.KingActivity">
+        <com.zhy.autolayout.AutoFrameLayout
+            android:id="@+id/base_sss"
+            android:layout_width="148px"
+            android:visibility="gone"
+            android:layout_height="148px"
+            android:background="@color/page_title"
+            >
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/base_sss_image"
+                android:layout_width="148px"
+                android:layout_height="148px"
+                android:onClick="onBack"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:background="@color/page_title"
+                >
+
+            </com.zhy.autolayout.AutoLinearLayout>
+            <ImageView
+                android:background="@drawable/icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30px"
+                android:layout_marginLeft="30px"
+                android:layout_gravity="bottom"
+                />
+        </com.zhy.autolayout.AutoFrameLayout>
+
+        <com.zhy.autolayout.AutoFrameLayout
+            android:id="@+id/base_back"
+            android:layout_width="148px"
+            android:layout_height="148px"
+            android:layout_gravity="right"
+            android:background="@color/page_title"
+            >
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/base_back_image"
+                android:layout_width="148px"
+                android:layout_height="148px"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:background="@color/page_title"
+                >
+
+            </com.zhy.autolayout.AutoLinearLayout>
+            <ImageView
+                android:background="@drawable/icon_daynmic_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30px"
+                android:layout_marginRight="30px"
+                android:layout_gravity="right|bottom"
+
+                />
+        </com.zhy.autolayout.AutoFrameLayout>
+
+
+        <TextView
+            android:id="@+id/top_title"
+            android:textSize="16dp"
+            android:text="这是标题"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoFrameLayout>
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="未发布家园动态"
+        android:textColor="#989898"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:background="@color/main_content_bg"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    <com.cosfund.library.refresh.PullToRefreshListView
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:divider="@null"
+        />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="30px"
+    android:paddingTop="30px"
+    android:paddingBottom="30px"
+    android:paddingRight="9px"
+    android:background="@drawable/setting_item_selector">
+    <ImageView
+        android:id="@+id/fengm_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        />
+<com.zhy.autolayout.AutoLinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/setting_item_selector">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id="@+id/record_title"
+            android:text="新闻标题"
+            android:textSize="36px"
+            android:textColor="#333333"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:gravity="bottom"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/icon_record_new"
+            android:src="@drawable/icon_record_new"
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_marginTop="19px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="21px"
+        >
+
+        <TextView
+            android:id="@+id/record_content"
+            android:text="根据幼儿园卫生保健工作要求，实验幼儿园联合县妇幼保健院于5月15日、16日为全园幼儿进行了春季体检..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32px"
+            android:maxLines="4"
+            android:minLines="2"
+            android:textColor="#999999"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:gravity="right"
+        android:layout_marginTop="13px"
+        android:layout_marginBottom="20px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        >
+
+        <TextView
+            android:id="@+id/record_src"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            />
+
+        <TextView
+            android:id="@+id/record_time"
+            android:text="2016-02-12 08:30"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

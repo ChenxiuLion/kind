@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="material_colors">
+        <item>@color/materialRed</item>
+        <item>@color/materialBlue</item>
+        <item>@color/materialYellow</item>
+        <item>@color/materialGreen</item>
+    </integer-array>
+    <color name="black_de">#DE000000</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="dark">#d7d6d6</color>
+    <color name="dark_h">#666666</color>
+    <color name="font_yellow_00">#ffae00</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="materialBlue">#FF375BF1</color>
+    <color name="materialGreen">#FF34A350</color>
+    <color name="materialRed">#FFC93437</color>
+    <color name="materialYellow">#FFF7D23E</color>
+    <color name="window_background">#00000000</color>
+    <declare-styleable name="AnimCheckBox"><attr format="dimension" name="stroke_width"/><attr format="color" name="stroke_color"/><attr format="color" name="circle_color"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_widthc"/><attr format="color" name="border_colorc"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="PullToZoomView"><attr format="reference" name="headerView"/><attr format="reference" name="contentView"/><attr format="reference" name="zoomView"/><attr format="boolean" name="isHeaderParallax"/></declare-styleable>
+    <declare-styleable name="WheelView"><attr format="color" name="normalTextColor"/><attr format="dimension" name="normalTextSize"/><attr format="color" name="selectedTextColor"/><attr format="dimension" name="selectedTextSize"/><attr format="dimension" name="unitHight"/><attr format="integer" name="itemNumber"/><attr format="color" name="lineColor"/><attr format="color" name="bottomLineColor"/><attr format="dimension" name="lineHeight"/><attr format="dimension" name="firstLineAndSecondLineSpace"/><attr format="dimension" name="maskHight"/><attr format="boolean" name="noEmpty"/><attr format="boolean" name="isEnable"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="spacing_dimension_0dp">0dp</dimen>
+    <dimen name="spacing_dimension_10dp">10dp</dimen>
+    <item name="about_version_code" type="id">false</item>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="expandable" type="id"/>
+    <item name="expandable_toggle_button" type="id"/>
+    <item name="fgelv_tag_changed_visibility" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="split" type="id">false</item>
+    <item name="viewpager" type="id"/>
+    <item name="webview" type="id"/>
+    <string name="com_back"></string>
+    <string name="com_setting"></string>
+    <string name="date_select_title">%1$s年%2$s月%3$s日 %4$s:00</string>
+    <style name="hint_dialog_style" parent="@android:style/Theme.Dialog">
+        <!--去掉Dialog背景色-->
+        <item name="android:windowFrame">@null</item>
+        <!--去掉边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否悬浮在Activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--去掉标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--设置自定义View的背景透明-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--设置弹出窗口背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="wheelViewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="itemNumber">3</item>
+        <item name="lineColor">#ff6600</item>
+        <item name="bottomLineColor">#ffdadada</item>
+        <item name="lineHeight">3dp</item>
+        <item name="firstLineAndSecondLineSpace">10dp</item>
+        <item name="maskHight">32dp</item>
+        <item name="noEmpty">true</item>
+        <item name="normalTextColor">#99999999</item>
+        <item name="normalTextSize">14sp</item>
+        <item name="selectedTextColor">#222222</item>
+        <item name="selectedTextSize">22sp</item>
+        <item name="unitHight">50dp</item>
+    </style>
+</resources>

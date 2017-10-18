@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_navigation_menu_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_media_action.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/cube_ptr_simple_loading.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/res/layout/cube_ptr_simple_loading.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/layout_toast_view.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/layout_toast_view.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/msg_item_left.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/layout/msg_item_left.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/layout_materialdialog.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/layout_materialdialog.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/function_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/layout/function_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/view_banner_content.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/view_banner_content.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_layout_tab_icon.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/select_photo_header.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/select_photo_header.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/photo_select_view.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/photo_select_view.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/photo_file_list_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/photo_file_list_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/layout_date_select.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/layout_date_select.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/msg_item_right.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/layout/msg_item_right.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/message_input_tool_box.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/layout/message_input_tool_box.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/face_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/layout/face_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/notification_template_lines.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/cube_ptr_classic_default_header.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/res/layout/cube_ptr_classic_default_header.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_layout_tab_text.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/photo_grid_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/photo_grid_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/com_title_bar.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/com_title_bar.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/face_fragment.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/src/main/res/layout/face_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/photo_grid_item2.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/photo_grid_item2.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/image_select_dirlist.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/kind/CosFundLib/unspecified/res/layout/image_select_dirlist.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/chenxiu/kind/androidChatWidget/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    }
+]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.youqd.kind.ckind.widget.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        >
+        <!--下层 左边的布局-->
+        <include layout="@layout/leftmenu"/>
+        <!--上层 右边的主布局-->
+        <com.youqd.kind.ckind.widget.CustomRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                >
+                <include layout="@layout/activity_new_main"/>
+            </LinearLayout>
+        </com.youqd.kind.ckind.widget.CustomRelativeLayout>
+    </com.youqd.kind.ckind.widget.DragLayout>
